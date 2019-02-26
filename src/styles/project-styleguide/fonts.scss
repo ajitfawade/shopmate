@@ -1,0 +1,232 @@
+/****************
+* Font Variables
+*****************/
+@import "./colors";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+//Font-families:
+$main-font: 'Montserrat', sans-serif;
+
+//Font-sizes:
+$base-font-size: 14px;
+
+//Font-weights:
+
+$light: 300;
+$normal: 400;
+$bold: 600;
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-huge {
+  color: $darker-blue;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.text-dark {
+  font-size: 14px;
+  color: $charcol-input;
+  font-weight: 400;
+  .text-italic {
+    font-style: italic;
+  }
+}
+
+.text-attribute-dark {
+  font-size: 16px !important;
+  font-weight: 600;
+  color: $charcol-input;
+}
+.text-mid-dark-4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: $light-gray;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: $darker-blue;
+}
+
+.title-big {
+  color: $darker-blue;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.text-bold-4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: $darker-blue;
+}
+
+.text-bold-1 {
+  color: $lighter-gray;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-normal-light {
+  color: $light-gray;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.text-bold-input {
+  color: #444444;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text-bold-3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text-dashboard-title {
+  font-size: 20px;
+  font-weight: $bold;
+  color: $darker-blue;
+}
+
+.audience-active-text {
+  color: $darkest-blue;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.audience-archived-text {
+  color: $greyish;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.text-1 {
+  color: $darker-blue;
+  font-size: 16px;
+}
+
+.text-bold-2 {
+  color: $light-gray;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.text-mid-4 {
+  font-weight: 500;
+  color: $darker-blue;
+  font-size: 14px;
+}
+
+.text-bold-4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: $darker-blue;
+}
+
+.text-mid-3 {
+  font-size: 14px;
+  color: $orange;
+}
+
+.text-mid-2 {
+  color: $darker-blue;
+  font-size: 14px;
+}
+
+.text-mid-1 {
+  color: $lighter-blue;
+  font-size: 14px;
+}
+
+.text-ligth-1 {
+  color: $darkest-blue;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.text-small-1 {
+  color: $darker-blue;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.text-small-2 {
+  color: $lighter-blue;
+  font-size: 12px;
+}
+
+.text-very-small-1 {
+  color: $white;
+  font-size: 10px;
+}
+
+.text-italic {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  color: $lighter-gray;
+}
+
+.text-light-3 {
+  color:  $darker-blue;
+  font-size: 16px;
+  font-weight: 300;
+}
+.text-normal-3 {
+  color:  $darker-blue;
+  font-size: 16px;
+  font-weight: 400;
+}
+.text-light-1 {
+  color:  $darker-blue;
+  font-size: 20px;
+  font-weight: 400;
+}
+.text-mid-5 {
+  font-size: 15px;
+  color: $white;
+}
+
+.text-mid-6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: $darker-blue;
+}
+.text-dark-empty_state {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+}
+.text-ligth-2 {
+  font-size: 14px;
+  font-weight: 300;
+  color: $darker-blue;
+}
+
+.text-error {
+  color: $red;
+  font-size: 14px;
+}
+
+.text-mid-huge {
+  font-size: 36px;
+  font-weight: 600;
+  color: $darker-blue;
+  line-height: 36px;
+}
